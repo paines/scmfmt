@@ -1,8 +1,0 @@
-;; -*- scheme -*-
-
-(compile -d0 -O3 scmfmt.scm)
-
-(install-program
- 'scmfmt
- '("scmfmt")
- '((version "0.1")))

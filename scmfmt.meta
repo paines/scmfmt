@@ -1,6 +1,0 @@
-;; -*- scheme -*-
-
-((synopsis " A simple sexp pretty printter which works on stdin / stdout")
- (author "Anes Lihovac")
- (category tools)
- (license "BSD")))
