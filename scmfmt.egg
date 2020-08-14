@@ -4,4 +4,5 @@
  (category tools)
  (license "BSD")
  (author "Anes Lihovac")
+ (version "0.1")
  (components (program scmfmt)))
