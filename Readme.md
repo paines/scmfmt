@@ -16,7 +16,7 @@ sudo chicken-install
 This will place an scmfmt executable in your PATH.
 
 
-#Testig
+# Testing
 
 ```sh
 scmfmt < yourFile.scm

@@ -1,7 +1,14 @@
 ;; -*- scheme -*-
 
-((synopsis "Chicken Scheme code fromattor to use from stdin/stdout")
- (category tools)
- (license "BSD")
+((synopsis
+  "Chicken Scheme code fromattor to use from stdin/stdout")
  (author "Anes Lihovac")
- (components (program scmfmt)))
+ (license "BSD")
+ (category tools)
+ (dependencies
+  henrietta-cache
+  salmonella)
+ (component-options
+  (csc-options "-O3" "-d0"))
+ (components
+  (program test-new-egg)))
