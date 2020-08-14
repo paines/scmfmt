@@ -3,7 +3,21 @@
 
 # New Features!
 
-  - A simple sexp pretty printter which work on stdin / stdout
+  - A simple sexp pretty printter which works on stdin / stdout
+
+
+# Instalation
+clone the repo, enter the directory and exectue 
+``sh
+sudo chicken-install
+```
+This will place an scmfmt executable in your PATH.
+
+
+#Testig
+```sh
+  scmfmt < some-file.scm
+```
 
 
 You can also:
@@ -17,4 +31,6 @@ You can also:
     }
 ```
 
-to settings.json located in ~/.config/Code/User/settings.json or @ext:steefh.external-formatters
+to settings.json located in ~/.config/Code/User/settings.json or @ext:steefh.external-formatters.
+
+Once enabled you can use Ctrl-Shift+I to format the document.
