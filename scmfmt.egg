@@ -1,0 +1,5 @@
+((synopsis "Chicken Scheme code fromattor to use from stdin/stdout")
+ (category utilities)
+ (license "LGPL-2.1")
+ (author "Anes Lihovac")
+ (components (program scmfmt)))
