@@ -11,4 +11,4 @@
  (component-options
   (csc-options "-O3" "-d0"))
  (components
-  (program test-new-egg)))
+  (program scmfmt)))
