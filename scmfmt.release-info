@@ -1,0 +1,3 @@
+(repo git "git://github.com/paines/chicken-code-formatter.git")
+(uri targz "https://github.com/paines/chicken-code-formatter/archive/0.1.tar.gz")
+(release "0.1")

@@ -8,17 +8,19 @@
 
 # Instalation
 clone the repo, enter the directory and exectue 
-``sh
+
+```sh
 sudo chicken-install
 ```
+
 This will place an scmfmt executable in your PATH.
 
 
 #Testig
-```sh
-  scmfmt < some-file.scm
-```
 
+```sh
+scmfmt < yourFile.scm
+```
 
 You can also:
   - use vscode extension named "External formatters" to enable this extension if you add 

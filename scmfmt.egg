@@ -1,5 +1,7 @@
+;; -*- scheme -*-
+
 ((synopsis "Chicken Scheme code fromattor to use from stdin/stdout")
- (category utilities)
- (license "LGPL-2.1")
+ (category tools)
+ (license "BSD")
  (author "Anes Lihovac")
  (components (program scmfmt)))
