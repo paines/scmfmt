@@ -1,0 +1,87 @@
+###
+### scmfmt
+###
+
+=== scmfmt installation: [FAIL]
+
+'/usr/bin/chicken-install' -v 2>&1
+checking scmfmt ...
+checking platform for `scmfmt'
+checking dependencies for `scmfmt'
+install order:
+("scmfmt")
+building scmfmt
+running script /tmp/tempc9bb.306269/scmfmt/0.1/scmfmt.build.sh
+executing: "sh /tmp/tempc9bb.306269/scmfmt/0.1/scmfmt.build.sh"
+   /usr/bin/csc -setup-mode -host -I /tmp/tempc9bb.306269/scmfmt/0.1 -C -I/tmp/tempc9bb.306269/scmfmt/0.1 -O2 -d1 scmfmt.scm -o /tmp/tempc9bb.306269/scmfmt/0.1/scmfmt
+
+Syntax error (import): cannot import from undefined module
+
+	chicken.pretty-print
+
+	Expansion history:
+
+	<syntax>	  (##core#begin (import (chicken pretty-print)))
+	<syntax>	  (import (chicken pretty-print))	<--
+
+Error: shell command terminated with non-zero exit status 17920: '/usr/bin/chicken' 'scmfmt.scm' -output-file '/tmp/tempc9bb.306269/scmfmt/0.1/scmfmt.c' -setup-mode -include-path /tmp/tempc9bb.306269/scmfmt/0.1 -optimize-level 2 -debug-level 1
+
+Error: shell command terminated with nonzero exit code
+256
+"sh /tmp/tempc9bb.306269/scmfmt/0.1/scmfmt.build.sh"
+
+###
+### Environment information
+###
+
+salmonella 3.0.0 -- a tool for testing CHICKEN eggs (http://wiki.call-cc.org/egg/salmonella)
+
+Started on Sat Aug 15 09:34:20 2020
+Command line: /usr/bin/salmonella
+
+Options:
+  chicken-install: /usr/bin/chicken-install
+  repo-dir: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo
+  chicken-install-args: (-v -test)
+
+C compiler: x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+C++ compiler: x86_64-linux-gnu-g++
+x86_64-linux-gnu-g++ (Ubuntu 9.3.0-10ubuntu2) 9.3.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+C compiler flags: -fno-strict-aliasing -fwrapv -DHAVE_CHICKEN_CONFIG_H -DC_ENABLE_PTABLES -g -O2 -fdebug-prefix-map=/build/chicken-8b5V5S/chicken-5.1.0=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -I/usr/include/chicken -I'/tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/include/chicken' 
+
+Linker: x86_64-linux-gnu-gcc
+Linker flags: -L/usr/lib -Wl,-R/usr/lib 
+
+Libraries: -lchicken -lm -ldl 
+
+CHICKEN banner:
+CHICKEN
+(c) 2008-2019, The CHICKEN Team
+(c) 2000-2007, Felix L. Winkelmann
+Version 5.1.0 (rev 8e62f718)
+linux-unix-gnu-x86-64 [ 64bit dload ptables ]
+
+Environment variables:
+  SALMONELLA_RUNNING: 1
+  CHICKEN_INSTALL_REPOSITORY: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/lib/chicken/11
+  CHICKEN_REPOSITORY_PATH: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/lib/chicken/11
+  CHICKEN_EGG_CACHE: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/cache
+  CHICKEN_INCLUDE_PATH: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/share/chicken
+  CHICKEN_C_INCLUDE_PATH: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/include/chicken
+  CHICKEN_HOME: (not set)
+  CSC_OPTIONS: (not set)
+  PATH: /tmp/tempc9bb.306269/scmfmt/0.1/salmonella-tmp-2fe45/repo/bin:/home/al/bin:/home/al/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/al/src/others/flutter/bin:/home/al/src/others/flutter/bin
+
