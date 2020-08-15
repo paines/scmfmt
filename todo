@@ -1,3 +1,0 @@
-paines: hints: the idiomatic way of having one-armed `if''s is `when'. The default clause of `cond' is specified with `else'.
-
-The body of `when' doesn't have to be wrapped in `begin'.
