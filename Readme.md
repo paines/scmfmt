@@ -1,12 +1,7 @@
 # scmfmt
-
-
-# New Features!
-
   - A simple sexp pretty printter which works on stdin / stdout
 
-
-# Instalation
+# Installation
 
 ```sh
 sudo chicken-install scmfmt
