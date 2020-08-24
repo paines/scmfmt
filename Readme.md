@@ -7,10 +7,15 @@
 
 
 # Instalation
-clone the repo, enter the directory and exectue 
 
 ```sh
-sudo chicken-install
+sudo chicken-install scmfmt
+```
+
+or clone the repo, enter the directory and exectue 
+
+```sh
+sudo chicken-install 
 ```
 
 This will place an scmfmt executable in your PATH.
