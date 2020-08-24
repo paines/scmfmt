@@ -1,5 +1,5 @@
 # scmfmt
-  - A simple sexp pretty printter which works on stdin / stdout
+  - A simple sexp pretty printer or chicken scheme code formatter which works on stdin / stdout.
 
 # Installation
 
@@ -35,4 +35,4 @@ You can also:
 
 to settings.json located in ~/.config/Code/User/settings.json or @ext:steefh.external-formatters.
 
-Once enabled you can use Ctrl-Shift+I to format the document.
+Once enabled you can use Ctrl-Shift+I to format the document/file containing the code.
